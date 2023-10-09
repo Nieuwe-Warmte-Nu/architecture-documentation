@@ -4,13 +4,19 @@ Options:
 - Influxdb v2
 - TimescaleDB
 
-# Overview
-<Insert table of features and characteristics>
+# Requirements
+- HA i.v.m. data redudantie <-- Should be possible now. Build it later in project if discussion deems necessary.
+- Lots of data -> Storage efficiency / compression?
+- Retention options
+- RBAC
+- Efficient retrieval while writing (many readers & writers at the same time)
+- Discussion point: Backup strategy (disaster recovery). Maybe we do not build it now, but it should be possible.
+- Per job output grouping (grouped by labels, database or another grouping mechanism) 
 
 
 # Performance results
 Write performance
-- 10-11GB partially repetative data (compressed to 1.2GB)
+- 10-11GB partially repetative data (compressed to benchmark data 1.2GB on disk, not db)
 - Disk io bottleneck huge. Ramdisk to elevate during benchmark. Need NVMe disk. Became CPU bounded.
 - CPU == 2 cores, 4 threads. Autovacuum makes it CPU bound => periodically spikes CPU usage.
 - Execution time of benchmark on ramdisk was 265 seconds and with autovacuum off it became 217 seconds.

@@ -21,14 +21,13 @@ Quick non-options:
 - HA or persistency if orchestrator crashes or is updated. Can it resume from the previous state?
 - QoS: Allow for configuring priority on jobs. E.g. if a user sneds in 200 jobs and another user only 1, the second user should gain priority. But still, the 200 jobs should not be enqueued for ever
 - Job queue: If there are too many jobs, new jobs may be enqueued.
-- Lifecycle management of cluster resources (pods): Start them, kill them on errors, clean up.
+- Keeps overview of lifecycle management of workers. (Which are available, what are they currently doing)
 - Is able to connect to broker to send. (Just in case, not necessary for first version of design)
 - Can schedule multiple steps after each other.
-- Can schedule pods with env var information.
 - Can retrieve arguments for job when a new job is started through the API.
 - Lightweight: prefer single component without extra pools of resources.
 - Selfhosted
-- Integration with both k8s and docker
+- Can run on both k8s and docker
 
 
 # Performance results
