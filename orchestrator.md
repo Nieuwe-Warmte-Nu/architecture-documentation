@@ -3,7 +3,7 @@
 Options:
 - Airflow (Works but heavy architecture)
 - Argo (Works only for k8s but seems to do what we want. Arbitrary code/scripts is convoluted it can only schedule containers)
-- Celery: Only real options to try out. Have not been able to find any big alternatives.
+- Celery: Only real options to try out. Have not been able to find any big alternatives except for dramatiq, see below.
 
 Quick non-options:
 - Keboola (No selfhosting so not an option. No further analysis)
