@@ -24,3 +24,12 @@ Steps when the SDK starts up (and the orchestrator is already available) and req
 
 Steps when the orchestrator starts up (and 1 or more SDKs are already available):
 ![Steps when the orchestrator starts up.](/Technical%20Architecture/Communicating%20available%20workflows.orchestrator%20initiated.v1.drawio.png)
+
+
+There are also 2 other situations:
+1) The SDK is started but the orchestrator is not yet online.
+2) The orchestrator starts up but the SDK is not yet online.
+
+In both situations their respective messages may be send but they are dropped silently by the broker.
+The `available_workflow.<SDK_ID>` and `request_available_workflows` queues are managed by their subscriber
+and if the queue does not exist, the message isn't routed by RabbitMQ.
