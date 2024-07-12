@@ -3,6 +3,7 @@
 OMOTES communicated with any other application through its SDK. Current implementations:
 
 - [Python](https://github.com/Project-OMOTES/omotes-sdk-python)
+- [Typescript](https://github.com/Project-OMOTES/typescript-sdk)
 
 The SDK communicates with OMOTES by sending and receiving AMQP 0.9 messages through 
 [RabbitMQ](https://www.rabbitmq.com/). The protocol structure is defined 
