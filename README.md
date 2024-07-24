@@ -7,4 +7,4 @@
 ![Queue design on RabbitMQ](Technical%20Architecture/Queue%20design.v1.drawio.png)
 
 # Features
-- [Centralizing workflow definitions](Feature_Centralizing_workflow_definitions.md)
+- [Centralizing workflow definitions](Feature_Centralizing_workflow_definitions/Feature_Centralizing_workflow_definitions.md)

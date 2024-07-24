@@ -1,0 +1,95 @@
+<mxfile host="Electron" modified="2024-07-24T13:27:28.491Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.6.4 Chrome/124.0.6367.207 Electron/30.0.6 Safari/537.36" etag="DbgGEBjaBytrS9RuAzH4" version="24.6.4" type="device">
+  <diagram name="Page-1" id="5p3XuHuaNZze8ao5FYiK">
+    <mxGraphModel dx="2037" dy="748" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="6aSj82p8gZ998tWOMwM1-1" value="SDK.1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="20" y="560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6aSj82p8gZ998tWOMwM1-2" value="SDK.2" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="20" y="655" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6aSj82p8gZ998tWOMwM1-3" value="SDK.3" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="20" y="750" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6aSj82p8gZ998tWOMwM1-4" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=data:image/svg+xml,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTcuNDUgNDAuOTgiIGRhdGEtbmFtZT0iTGF5ZXIgMSIgaWQ9IkxheWVyXzEiPjxkZWZzPjxzdHlsZT4uY2xzLTF7ZmlsbDojYTliNWFmO30uY2xzLTJ7ZmlsbDojZjYwO308L3N0eWxlPjwvZGVmcz48dGl0bGU+UmFiYml0TVFfTG9nb19SR0I8L3RpdGxlPjxwYXRoIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0xLjExIC0wLjk4KSIgZD0iTTI1OCwzNS43MmwtMS44Miw1LjY4aC0wLjU2bC0xLjgzLTUuNjhoMFY0MS40aC0wLjQ5VjM1LjIzaDAuODlsMS43Myw1LjQxaDBsMS43My01LjQxaDAuODdWNDEuNGgtMC40OVYzNS43MmgwWm0wLDAiIGNsYXNzPSJjbHMtMSIvPjxwb2x5Z29uIHBvaW50cz0iMjUxLjYgMzQuMjUgMjQ5LjA2IDM0LjI1IDI0OC41NyAzNC4yNSAyNDYuMDQgMzQuMjUgMjQ2LjA0IDM0Ljc0IDI0OC41NyAzNC43NCAyNDguNTcgNDAuNDIgMjQ5LjA2IDQwLjQyIDI0OS4wNiAzNC43NCAyNTEuNiAzNC43NCAyNTEuNiAzNC4yNSIgY2xhc3M9ImNscy0xIi8+PHBhdGggdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTEuMTEgLTAuOTgpIiBkPSJNMTk0LDQxLjMxaC0zLjYyTDE3OC40OCw0LjgzVjQxLjMxaC0zLjE3VjEuNjZIMTgxbDExLjA4LDM0LjcxaDAuMTJMMjAzLjMyLDEuNjZoNS41NlY0MS4zMWgtMy4xNFY0LjgzWiIgY2xhc3M9ImNscy0xIi8+PHBhdGggdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTEuMTEgLTAuOTgpIiBkPSJNNDcuOCwxLjY1VjQxLjMxaDMuNDRWMjMuMzhINTZhMTAuNDgsMTAuNDgsMCwwLDEsMy43LjZjMy41MSwxLjMzLDMuOTEsNS40LDQuNTQsOGwyLDkuMzhINjkuN2wtMi4yNS0xMC43Yy0wLjY2LTMuMjItMS4xLTQuNi0yLTYtMS4xOS0xLjg1LTQuNTktMi44NS00LjU5LTIuODUsNS41OC0xLjA5LDgtNC44Myw4LTkuOTMsMC00LjY4LTIuMjctMTAuMTUtMTIuNjktMTAuMTVINDcuOFptMy40NCwzLjE2aDQuNTRjOS4wNywwLDkuNiw0LjgyLDkuNiw3LDAsMS44MS0uMzMsOC40MS0xMSw4LjQxSDUxLjI0VjQuODJoMFptMCwwIiBjbGFzcz0iY2xzLTIiLz48cGF0aCB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMS4xMSAtMC45OCkiIGQ9Ik03My43OSwyMC41MWgzLjUyYzAuMzItMS42LDEtNC40NCw1LjY5LTQuNDQsNi4xNCwwLDUuOTQsNS4zMiw1Ljk0LDcuMzh2Mi40cy0yLDAtMy4yNC4xMmMtNC42OS4zNi0xMi4zNSwxLjU4LTEyLjM1LDguNjVzNS44Niw3LjMxLDcsNy4zMWExMC4wNiwxMC4wNiwwLDAsMCw0Ljg0LTEuMTUsMTAuMzEsMTAuMzEsMCwwLDAsMy42Ni0zLjM0aDAuMTJ2My44N2gyLjg1VjIyLjYzYzAtMi43OS4yNi05LjMtOC41NS05LjNTNzMuNzksMTkuMjEsNzMuNzksMjAuNTFabTE1LjE0LDguMDhhMjUuNTIsMjUuNTIsMCwwLDEtLjIsMy4xNiw3LjkzLDcuOTMsMCwwLDEtNy44Niw2LjczLDMuNzEsMy43MSwwLDAsMS00LjA2LTMuNzFjMC0xLjQ1LjU2LTQuODQsNi4xMy01LjkxQzg0LjExLDI4LjY0LDg4LjkzLDI4LjU5LDg4LjkzLDI4LjU5WiIgY2xhc3M9ImNscy0yIi8+PHBhdGggdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTEuMTEgLTAuOTgpIiBkPSJNOTYuNTQsMS42NVYzMC4xMWMwLDEuNTQuMDUsMTEuODMsOS41MywxMS44MywyLjI4LDAsMTAuNi0uOCwxMC42LTE0cy03LjMtMTQuNTktOS41LTE0LjU5YTcuODksNy44OSwwLDAsMC03LjY0LDUuNzhoLTAuMVYxLjY1aC0yLjlabTE2LjY3LDI2LjIxYzAsMTEuMDctNi4xOCwxMS4zLTcuMTQsMTEuM3MtNi41MywwLTYuNTMtMTAuODVjMC05LDQuMzMtMTIuMjUsNy4zMS0xMi4yNVMxMTMuMjEsMTkuMTMsMTEzLjIxLDI3Ljg3WiIgY2xhc3M9ImNscy0yIi8+PHBhdGggdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTEuMTEgLTAuOTgpIiBkPSJNMTIxLjEzLDEuNjVWMzAuMTFjMCwxLjU0LjA1LDExLjgzLDkuNTMsMTEuODMsMi4yOCwwLDEwLjYtLjgsMTAuNi0xNHMtNy4zLTE0LjU5LTkuNS0xNC41OWE3Ljg5LDcuODksMCwwLDAtNy42NCw1Ljc4SDEyNFYxLjY1aC0yLjlabTE2LjY3LDI2LjIxYzAsMTEuMDctNi4xOCwxMS4zLTcuMTQsMTEuM3MtNi41MywwLTYuNTMtMTAuODVjMC05LDQuMzMtMTIuMjUsNy4zMS0xMi4yNVMxMzcuNzksMTkuMTMsMTM3Ljc5LDI3Ljg3WiIgY2xhc3M9ImNscy0yIi8+PHBhdGggdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTEuMTEgLTAuOTgpIiBkPSJNMTQ5LDEzLjk1VjQxLjMxaC0yLjg3VjEzLjk1SDE0OVoiIGNsYXNzPSJjbHMtMiIvPjxwYXRoIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0xLjExIC0wLjk4KSIgZD0iTTE0OS42NiwxLjY2VjYuMzFoLTQuMjRWMS42Nmg0LjI0Wm0wLDAiIGNsYXNzPSJjbHMtMiIvPjxwYXRoIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0xLjExIC0wLjk4KSIgZD0iTTE2OSw0MS42OWEyOC4xOSwyOC4xOSwwLDAsMS0yLjkyLjI1LDguNDgsOC40OCwwLDAsMS01LjQ1LTEuNTdjLTEuMi0xLTEuNzktMi43Ni0xLjc5LTUuMTdWMTYuNjloLTQuMzhWMTMuOTVoNC4zOFY3LjYzbDIuODUtMS45MXY4LjIySDE2OXYyLjc0aC03LjN2MTcuNmMwLDAuNzktLjE5LDQuODcsNC4xNCw0Ljg3YTExLjE4LDExLjE4LDAsMCwwLDMuMTYtLjQ5djNoMFptMCwwIiBjbGFzcz0iY2xzLTIiLz48cGF0aCB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMS4xMSAtMC45OCkiIGQ9Ik0zOS40MiwxNy4zN0gyNi42NWExLjU5LDEuNTksMCwwLDEtMS42LTEuNlYzYTEuNTksMS41OSwwLDAsMC0xLjYtMS41OUgxOC42N0ExLjU5LDEuNTksMCwwLDAsMTcuMDcsM1YxNS43N2ExLjU5LDEuNTksMCwwLDEtMS42LDEuNkgxMC42OWExLjU5LDEuNTksMCwwLDEtMS42LTEuNlYzQTEuNTksMS41OSwwLDAsMCw3LjQ5LDEuNEgyLjdBMS41OSwxLjU5LDAsMCwwLDEuMTEsM1YzOS43MmExLjU5LDEuNTksMCwwLDAsMS42LDEuNkgzOS40MmExLjU5LDEuNTksMCwwLDAsMS42LTEuNlYxOUExLjU5LDEuNTksMCwwLDAsMzkuNDIsMTcuMzdaTTMzLDMwLjkzYTIuMzksMi4zOSwwLDAsMS0yLjM5LDIuNGgtMy4yYTIuMzksMi4zOSwwLDAsMS0yLjM5LTIuNFYyNy43NGEyLjM5LDIuMzksMCwwLDEsMi4zOS0yLjRoMy4yQTIuMzksMi4zOSwwLDAsMSwzMywyNy43NHYzLjE5WiIgY2xhc3M9ImNscy0yIi8+PHBhdGggdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTEuMTEgLTAuOTgpIiBkPSJNMjM1LjI2LDM4LjYyYzMuNjctMy4xNCw1LjYzLTksNS42My0xNy40NSwwLTEyLjMxLTQuNjUtMjAuMi0xMy4zMy0yMC4yLTguMTQsMC0xMy44MSw2LjYxLTEzLjgxLDIwLjJzNC44MiwyMC4xNiwxMy41NywyMC4xNmwwLjM3LDB2MGgxNlYzOFpNMjE3LjUyLDIxLjE4YzAtMTEuMywzLjIzLTE2Ljc5LDEwLTE2Ljc5czkuNTYsNi41Niw5LjU2LDE2Ljc5UzIzNC42MiwzOCwyMjcuMzUsMzgsMjE3LjUyLDMyLjQ4LDIxNy41MiwyMS4xOFoiIGNsYXNzPSJjbHMtMSIvPjwvc3ZnPg==;" parent="1" vertex="1">
+          <mxGeometry x="511.5799999999999" y="500" width="188.05" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6aSj82p8gZ998tWOMwM1-5" value="" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="400" y="550" width="410" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="6aSj82p8gZ998tWOMwM1-10" value="Virtualhost: /omotes/" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="445.64" y="560" width="123.42" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6aSj82p8gZ998tWOMwM1-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="6aSj82p8gZ998tWOMwM1-12" target="6aSj82p8gZ998tWOMwM1-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6aSj82p8gZ998tWOMwM1-23" value="Subscribed to queue&lt;br&gt;No messages are received" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="6aSj82p8gZ998tWOMwM1-19" vertex="1" connectable="0">
+          <mxGeometry x="0.3973" y="1" relative="1" as="geometry">
+            <mxPoint x="31" y="-21" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6aSj82p8gZ998tWOMwM1-12" value="available_workflows.SDK.1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="425.29999999999995" y="620" width="164.09" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6aSj82p8gZ998tWOMwM1-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="6aSj82p8gZ998tWOMwM1-13" target="6aSj82p8gZ998tWOMwM1-12" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6aSj82p8gZ998tWOMwM1-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="6aSj82p8gZ998tWOMwM1-13" target="6aSj82p8gZ998tWOMwM1-14" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6aSj82p8gZ998tWOMwM1-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="6aSj82p8gZ998tWOMwM1-13" target="6aSj82p8gZ998tWOMwM1-15" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6aSj82p8gZ998tWOMwM1-13" value="&lt;b&gt;Routing key: &lt;/b&gt;available_workflows" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+          <mxGeometry x="630" y="670" width="164.09" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6aSj82p8gZ998tWOMwM1-14" value="available_workflows.SDK.2" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="424.99999999999994" y="670" width="164.09" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6aSj82p8gZ998tWOMwM1-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="6aSj82p8gZ998tWOMwM1-15" target="6aSj82p8gZ998tWOMwM1-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6aSj82p8gZ998tWOMwM1-17" value="Subscribed to queue&lt;br&gt;No messages are received" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="6aSj82p8gZ998tWOMwM1-16" vertex="1" connectable="0">
+          <mxGeometry x="0.4683" relative="1" as="geometry">
+            <mxPoint x="43" y="20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6aSj82p8gZ998tWOMwM1-15" value="available_workflows.SDK.3" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="424.99999999999994" y="720" width="164.09" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6aSj82p8gZ998tWOMwM1-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="6aSj82p8gZ998tWOMwM1-14" target="6aSj82p8gZ998tWOMwM1-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6aSj82p8gZ998tWOMwM1-22" value="Subscribed to queue&lt;br&gt;No messages are received" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="6aSj82p8gZ998tWOMwM1-18" vertex="1" connectable="0">
+          <mxGeometry x="0.3062" relative="1" as="geometry">
+            <mxPoint x="31" y="15" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6aSj82p8gZ998tWOMwM1-28" value="Queue is declared &amp;amp; bound to routing key by SDK. Queue is not durable and removed upon SDK disconnect" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;" parent="1" vertex="1">
+          <mxGeometry x="425" y="770" width="208" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6aSj82p8gZ998tWOMwM1-29" value="&lt;b&gt;Context:&lt;/b&gt; SDK.3 has started and publishes the &#39;RequestAvailableWorkflows&#39; message but the orchestrator has not yet started." style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;" parent="1" vertex="1">
+          <mxGeometry x="50" y="400" width="250" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6aSj82p8gZ998tWOMwM1-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="6aSj82p8gZ998tWOMwM1-3" target="-AgD6eqAQPY3xFQQj6YY-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="511.5799999999999" y="925" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="80" y="925" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6aSj82p8gZ998tWOMwM1-31" value="1. Publishes RequestAvailableWorkflows&lt;br&gt;message" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="6aSj82p8gZ998tWOMwM1-30" vertex="1" connectable="0">
+          <mxGeometry x="-0.0282" y="-4" relative="1" as="geometry">
+            <mxPoint x="29" y="21" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-AgD6eqAQPY3xFQQj6YY-1" value="Orchestrator queue &#39;request_available_workflows&#39; does not exist so message is dropped silently." style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;" vertex="1" parent="1">
+          <mxGeometry x="511.58" y="890" width="210" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
