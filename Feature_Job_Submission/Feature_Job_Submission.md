@@ -32,6 +32,7 @@ of short jobs quickly as well as quick updates on long running jobs.
    3. The job is registered as successfully submitted in PostgreSQL.
    4. The `JobStatusUpdates` for REGISTERED and ENQUEUED are successfully published to RabbitMQ with
       the SDK as its destination.
+
    If any of these steps fail, the message will remain in RabbitMQ until the issue that causes
    the failure is resolved (such as a software update, reboot of another component etc.).
    Data is persisted in both RabbitMQ and PostgreSQL and the other components are responsible for
