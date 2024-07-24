@@ -7,4 +7,5 @@
 ![Queue design on RabbitMQ](Technical%20Architecture/Queue%20design.v1.drawio.png)
 
 # Features
+- [Job submission](Feature_Job_Submission/Feature_Job_Submission.md)
 - [Centralizing workflow definitions](Feature_Centralizing_workflow_definitions/Feature_Centralizing_workflow_definitions.md)
