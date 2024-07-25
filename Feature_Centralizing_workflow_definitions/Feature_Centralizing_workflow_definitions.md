@@ -3,7 +3,7 @@
 The OMOTES architecture is constructed to allow different types of workflows to be performed.
 Each job has a specific type and OMOTES ensures that the job is performed by a worker
 capable of processing this specific 'job type'. However, it is also required to accompany the
-'job type' with one or more parameters in `params_dict` to complete the job submission.
+'job type' with zero or more parameters in `params_dict` to complete the job submission.
 We refer to the description of all components that make up a job submission as a
 'workflow definition'. Currently, we a workflow definition contains:
 
@@ -37,37 +37,32 @@ the state of the current workflow definitions the same between the orchestrator 
 
 ## Steps
 With OMOTES it is possible that either the orchestrator or the SDK starts first. We describe
-these starting situations in the next two steps.
+these different starting situations 2 seperate scenarios.
+
+### The SDK starts first and then the orchestrator (re)starts
 
 1a. The SDK starts but the orchestrator has not yet started. The SDK will send the
 'RequestAvailableWorkflows' request but the orchestrator has not yet started and the
 `request_available_workflows` queue does not yet exist so the message is dropped by the broker.
 ![Steps when the SDK starts but the orchestrator has not yet started.](/Feature_Centralizing_workflow_definitions/Communicating%20available%20workflows.sdk%20starts%20but%20no%20orchestrator.v1.drawio.png)
 
-
-1b. The orchestrator starts but the SDK has not yet started. The orchestrator will publish the
-workflow definitions to the `available_workflows` routing key but no queues are bound to the routing
-key so the message is dropped silently.
-![Steps when the orchestrator starts but the SDK has not yet started.](/Feature_Centralizing_workflow_definitions/Communicating%20available%20workflows.orchestrator%20starts%20but%20no%20SDK.v1.drawio.png)
-
-
-Once either the SDK or the orchestrator has started the other component will eventually start
-as well and it will be possible to communicate the workflow definitions. The next steps describe how 
-the communication will occur.
-
-2a. Steps when the SDK starts and the orchestrator is already available. Other SDKs may already
-be online as well. The SDK requests the current workflow definition and awaits a response from
-the orchestrator during start up.
-![Steps when the SDK initiates a request.](/Feature_Centralizing_workflow_definitions/Communicating%20available%20workflows.sdk%20initiated.v1.drawio.png)
-
-2b. Steps when the orchestrator (re)starts and 1 or more SDKs are already available. The orchestrator
+1b. Steps when the orchestrator (re)starts and 1 or more SDKs are already available. The orchestrator
 will read the workflow definitions from disk and propagate it to the SDKs regardless if it contains
 changes or if it is the same as previous time the orchestrator started.
 ![Steps when the orchestrator starts up.](/Feature_Centralizing_workflow_definitions/Communicating%20available%20workflows.orchestrator%20initiated.v1.drawio.png)
 
-3. It may be possible that the orchestrator is restarted as changes are made to the workflow 
-definitions. This situation is the same as step 2b. The new workflow definitions are loaded
-when the orchestrator starts up and published to the SDKs.
+
+### The orchestrators starts first and then the SDK (re)starts
+
+2a. The orchestrator starts but the SDK has not yet started. The orchestrator will publish the
+workflow definitions to the `available_workflows` routing key but no queues are bound to the routing
+key so the message is dropped silently.
+![Steps when the orchestrator starts but the SDK has not yet started.](/Feature_Centralizing_workflow_definitions/Communicating%20available%20workflows.orchestrator%20starts%20but%20no%20SDK.v1.drawio.png)
+
+2b. Steps when the SDK starts and the orchestrator is already available. Other SDKs may already
+be online as well. The SDK requests the current workflow definition and awaits a response from
+the orchestrator during start up.
+![Steps when the SDK initiates a request.](/Feature_Centralizing_workflow_definitions/Communicating%20available%20workflows.sdk%20initiated.v1.drawio.png)
 
 
 __Note__: Whenever an SDK requests the current workflow definitions, all SDKs will receive
