@@ -1,0 +1,195 @@
+<mxfile host="Electron" modified="2024-07-25T12:44:38.416Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.6.4 Chrome/124.0.6367.207 Electron/30.0.6 Safari/537.36" etag="FWpLvZprqFbyfCeLpnfp" version="24.6.4" type="device">
+  <diagram name="Page-1" id="5p3XuHuaNZze8ao5FYiK">
+    <mxGraphModel dx="2390" dy="1207" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="6aSj82p8gZ998tWOMwM1-1" value="SDK" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="410" y="655" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6aSj82p8gZ998tWOMwM1-4" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=data:image/svg+xml,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTcuNDUgNDAuOTgiIGRhdGEtbmFtZT0iTGF5ZXIgMSIgaWQ9IkxheWVyXzEiPjxkZWZzPjxzdHlsZT4uY2xzLTF7ZmlsbDojYTliNWFmO30uY2xzLTJ7ZmlsbDojZjYwO308L3N0eWxlPjwvZGVmcz48dGl0bGU+UmFiYml0TVFfTG9nb19SR0I8L3RpdGxlPjxwYXRoIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0xLjExIC0wLjk4KSIgZD0iTTI1OCwzNS43MmwtMS44Miw1LjY4aC0wLjU2bC0xLjgzLTUuNjhoMFY0MS40aC0wLjQ5VjM1LjIzaDAuODlsMS43Myw1LjQxaDBsMS43My01LjQxaDAuODdWNDEuNGgtMC40OVYzNS43MmgwWm0wLDAiIGNsYXNzPSJjbHMtMSIvPjxwb2x5Z29uIHBvaW50cz0iMjUxLjYgMzQuMjUgMjQ5LjA2IDM0LjI1IDI0OC41NyAzNC4yNSAyNDYuMDQgMzQuMjUgMjQ2LjA0IDM0Ljc0IDI0OC41NyAzNC43NCAyNDguNTcgNDAuNDIgMjQ5LjA2IDQwLjQyIDI0OS4wNiAzNC43NCAyNTEuNiAzNC43NCAyNTEuNiAzNC4yNSIgY2xhc3M9ImNscy0xIi8+PHBhdGggdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTEuMTEgLTAuOTgpIiBkPSJNMTk0LDQxLjMxaC0zLjYyTDE3OC40OCw0LjgzVjQxLjMxaC0zLjE3VjEuNjZIMTgxbDExLjA4LDM0LjcxaDAuMTJMMjAzLjMyLDEuNjZoNS41NlY0MS4zMWgtMy4xNFY0LjgzWiIgY2xhc3M9ImNscy0xIi8+PHBhdGggdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTEuMTEgLTAuOTgpIiBkPSJNNDcuOCwxLjY1VjQxLjMxaDMuNDRWMjMuMzhINTZhMTAuNDgsMTAuNDgsMCwwLDEsMy43LjZjMy41MSwxLjMzLDMuOTEsNS40LDQuNTQsOGwyLDkuMzhINjkuN2wtMi4yNS0xMC43Yy0wLjY2LTMuMjItMS4xLTQuNi0yLTYtMS4xOS0xLjg1LTQuNTktMi44NS00LjU5LTIuODUsNS41OC0xLjA5LDgtNC44Myw4LTkuOTMsMC00LjY4LTIuMjctMTAuMTUtMTIuNjktMTAuMTVINDcuOFptMy40NCwzLjE2aDQuNTRjOS4wNywwLDkuNiw0LjgyLDkuNiw3LDAsMS44MS0uMzMsOC40MS0xMSw4LjQxSDUxLjI0VjQuODJoMFptMCwwIiBjbGFzcz0iY2xzLTIiLz48cGF0aCB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMS4xMSAtMC45OCkiIGQ9Ik03My43OSwyMC41MWgzLjUyYzAuMzItMS42LDEtNC40NCw1LjY5LTQuNDQsNi4xNCwwLDUuOTQsNS4zMiw1Ljk0LDcuMzh2Mi40cy0yLDAtMy4yNC4xMmMtNC42OS4zNi0xMi4zNSwxLjU4LTEyLjM1LDguNjVzNS44Niw3LjMxLDcsNy4zMWExMC4wNiwxMC4wNiwwLDAsMCw0Ljg0LTEuMTUsMTAuMzEsMTAuMzEsMCwwLDAsMy42Ni0zLjM0aDAuMTJ2My44N2gyLjg1VjIyLjYzYzAtMi43OS4yNi05LjMtOC41NS05LjNTNzMuNzksMTkuMjEsNzMuNzksMjAuNTFabTE1LjE0LDguMDhhMjUuNTIsMjUuNTIsMCwwLDEtLjIsMy4xNiw3LjkzLDcuOTMsMCwwLDEtNy44Niw2LjczLDMuNzEsMy43MSwwLDAsMS00LjA2LTMuNzFjMC0xLjQ1LjU2LTQuODQsNi4xMy01LjkxQzg0LjExLDI4LjY0LDg4LjkzLDI4LjU5LDg4LjkzLDI4LjU5WiIgY2xhc3M9ImNscy0yIi8+PHBhdGggdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTEuMTEgLTAuOTgpIiBkPSJNOTYuNTQsMS42NVYzMC4xMWMwLDEuNTQuMDUsMTEuODMsOS41MywxMS44MywyLjI4LDAsMTAuNi0uOCwxMC42LTE0cy03LjMtMTQuNTktOS41LTE0LjU5YTcuODksNy44OSwwLDAsMC03LjY0LDUuNzhoLTAuMVYxLjY1aC0yLjlabTE2LjY3LDI2LjIxYzAsMTEuMDctNi4xOCwxMS4zLTcuMTQsMTEuM3MtNi41MywwLTYuNTMtMTAuODVjMC05LDQuMzMtMTIuMjUsNy4zMS0xMi4yNVMxMTMuMjEsMTkuMTMsMTEzLjIxLDI3Ljg3WiIgY2xhc3M9ImNscy0yIi8+PHBhdGggdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTEuMTEgLTAuOTgpIiBkPSJNMTIxLjEzLDEuNjVWMzAuMTFjMCwxLjU0LjA1LDExLjgzLDkuNTMsMTEuODMsMi4yOCwwLDEwLjYtLjgsMTAuNi0xNHMtNy4zLTE0LjU5LTkuNS0xNC41OWE3Ljg5LDcuODksMCwwLDAtNy42NCw1Ljc4SDEyNFYxLjY1aC0yLjlabTE2LjY3LDI2LjIxYzAsMTEuMDctNi4xOCwxMS4zLTcuMTQsMTEuM3MtNi41MywwLTYuNTMtMTAuODVjMC05LDQuMzMtMTIuMjUsNy4zMS0xMi4yNVMxMzcuNzksMTkuMTMsMTM3Ljc5LDI3Ljg3WiIgY2xhc3M9ImNscy0yIi8+PHBhdGggdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTEuMTEgLTAuOTgpIiBkPSJNMTQ5LDEzLjk1VjQxLjMxaC0yLjg3VjEzLjk1SDE0OVoiIGNsYXNzPSJjbHMtMiIvPjxwYXRoIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0xLjExIC0wLjk4KSIgZD0iTTE0OS42NiwxLjY2VjYuMzFoLTQuMjRWMS42Nmg0LjI0Wm0wLDAiIGNsYXNzPSJjbHMtMiIvPjxwYXRoIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0xLjExIC0wLjk4KSIgZD0iTTE2OSw0MS42OWEyOC4xOSwyOC4xOSwwLDAsMS0yLjkyLjI1LDguNDgsOC40OCwwLDAsMS01LjQ1LTEuNTdjLTEuMi0xLTEuNzktMi43Ni0xLjc5LTUuMTdWMTYuNjloLTQuMzhWMTMuOTVoNC4zOFY3LjYzbDIuODUtMS45MXY4LjIySDE2OXYyLjc0aC03LjN2MTcuNmMwLDAuNzktLjE5LDQuODcsNC4xNCw0Ljg3YTExLjE4LDExLjE4LDAsMCwwLDMuMTYtLjQ5djNoMFptMCwwIiBjbGFzcz0iY2xzLTIiLz48cGF0aCB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMS4xMSAtMC45OCkiIGQ9Ik0zOS40MiwxNy4zN0gyNi42NWExLjU5LDEuNTksMCwwLDEtMS42LTEuNlYzYTEuNTksMS41OSwwLDAsMC0xLjYtMS41OUgxOC42N0ExLjU5LDEuNTksMCwwLDAsMTcuMDcsM1YxNS43N2ExLjU5LDEuNTksMCwwLDEtMS42LDEuNkgxMC42OWExLjU5LDEuNTksMCwwLDEtMS42LTEuNlYzQTEuNTksMS41OSwwLDAsMCw3LjQ5LDEuNEgyLjdBMS41OSwxLjU5LDAsMCwwLDEuMTEsM1YzOS43MmExLjU5LDEuNTksMCwwLDAsMS42LDEuNkgzOS40MmExLjU5LDEuNTksMCwwLDAsMS42LTEuNlYxOUExLjU5LDEuNTksMCwwLDAsMzkuNDIsMTcuMzdaTTMzLDMwLjkzYTIuMzksMi4zOSwwLDAsMS0yLjM5LDIuNGgtMy4yYTIuMzksMi4zOSwwLDAsMS0yLjM5LTIuNFYyNy43NGEyLjM5LDIuMzksMCwwLDEsMi4zOS0yLjRoMy4yQTIuMzksMi4zOSwwLDAsMSwzMywyNy43NHYzLjE5WiIgY2xhc3M9ImNscy0yIi8+PHBhdGggdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTEuMTEgLTAuOTgpIiBkPSJNMjM1LjI2LDM4LjYyYzMuNjctMy4xNCw1LjYzLTksNS42My0xNy40NSwwLTEyLjMxLTQuNjUtMjAuMi0xMy4zMy0yMC4yLTguMTQsMC0xMy44MSw2LjYxLTEzLjgxLDIwLjJzNC44MiwyMC4xNiwxMy41NywyMC4xNmwwLjM3LDB2MGgxNlYzOFpNMjE3LjUyLDIxLjE4YzAtMTEuMywzLjIzLTE2Ljc5LDEwLTE2Ljc5czkuNTYsNi41Niw5LjU2LDE2Ljc5UzIzNC42MiwzOCwyMjcuMzUsMzgsMjE3LjUyLDMyLjQ4LDIxNy41MiwyMS4xOFoiIGNsYXNzPSJjbHMtMSIvPjwvc3ZnPg==;" parent="1" vertex="1">
+          <mxGeometry x="600.9799999999999" y="500" width="188.05" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6aSj82p8gZ998tWOMwM1-5" value="" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="590" y="550" width="210" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="6aSj82p8gZ998tWOMwM1-10" value="Virtualhost: /omotes/" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="625.3399999999999" y="560" width="123.42" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6aSj82p8gZ998tWOMwM1-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="6aSj82p8gZ998tWOMwM1-15" target="6aSj82p8gZ998tWOMwM1-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="780" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="570" y="685" />
+              <mxPoint x="570" y="685" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6aSj82p8gZ998tWOMwM1-15" value="jobs.&amp;lt;uuid&amp;gt;.result" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="605" y="670" width="164.09" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6aSj82p8gZ998tWOMwM1-28" value="Queues are declared by SDK. Queues are durable." style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;" parent="1" vertex="1">
+          <mxGeometry x="600.98" y="610" width="208" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6aSj82p8gZ998tWOMwM1-29" value="&lt;b&gt;Context: &lt;/b&gt;SDK&lt;b&gt;&amp;nbsp;&lt;/b&gt;has submitted a job and a worker has started processing the job. However, the job causes a hard crash so the message is requeued by RabbitMQ.&lt;br&gt;&lt;br&gt;For simplicity the first steps of the job submission from the SDK to the orchestrator are not drawn.&lt;br&gt;&lt;br&gt;We assume a delivery limit of 1 is configured (as in a job may be processed only 1 time). This limit is arbritrarily configurable." style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;" parent="1" vertex="1">
+          <mxGeometry x="310" y="340" width="250" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="coN3A_AfMeLDn5IxTaoZ-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="8MLc0p4F3aTrWBv1-tXL-7" target="coN3A_AfMeLDn5IxTaoZ-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="coN3A_AfMeLDn5IxTaoZ-6" value="&lt;b&gt;3b. &lt;/b&gt;The job start is recorded.&lt;br&gt;The total number of starts is queried&lt;br&gt;and it is below the delivery limit.&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;b&gt;7.&lt;/b&gt; The job start is recorded again.&lt;br&gt;The total number of starts is queried&lt;br&gt;by the orchestrator and the delivery&lt;br&gt;limit has been reached.&lt;br&gt;&lt;br&gt;&lt;b&gt;9c.&lt;/b&gt; The job is removed from the&lt;br&gt;database.&lt;/div&gt;" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];labelBorderColor=#828282;" parent="coN3A_AfMeLDn5IxTaoZ-5" vertex="1" connectable="0">
+          <mxGeometry x="0.1906" y="-1" relative="1" as="geometry">
+            <mxPoint x="-81" y="23" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="coN3A_AfMeLDn5IxTaoZ-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="8MLc0p4F3aTrWBv1-tXL-7" target="6aSj82p8gZ998tWOMwM1-15" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="850" y="685" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="coN3A_AfMeLDn5IxTaoZ-27" value="&lt;b&gt;9b.&lt;/b&gt; JobResult is published&lt;br&gt;that the job is prematurely cancelled&lt;br&gt;and cannot be processed without&lt;br&gt;crashing." style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];labelBorderColor=#828282;" parent="coN3A_AfMeLDn5IxTaoZ-26" vertex="1" connectable="0">
+          <mxGeometry x="0.2644" y="2" relative="1" as="geometry">
+            <mxPoint x="-85" y="43" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8MLc0p4F3aTrWBv1-tXL-7" value="Orchestrator" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="920" y="650" width="120" height="71.25" as="geometry" />
+        </mxCell>
+        <mxCell id="coN3A_AfMeLDn5IxTaoZ-1" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=data:image/svg+xml,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTcuNDUgNDAuOTgiIGRhdGEtbmFtZT0iTGF5ZXIgMSIgaWQ9IkxheWVyXzEiPjxkZWZzPjxzdHlsZT4uY2xzLTF7ZmlsbDojYTliNWFmO30uY2xzLTJ7ZmlsbDojZjYwO308L3N0eWxlPjwvZGVmcz48dGl0bGU+UmFiYml0TVFfTG9nb19SR0I8L3RpdGxlPjxwYXRoIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0xLjExIC0wLjk4KSIgZD0iTTI1OCwzNS43MmwtMS44Miw1LjY4aC0wLjU2bC0xLjgzLTUuNjhoMFY0MS40aC0wLjQ5VjM1LjIzaDAuODlsMS43Myw1LjQxaDBsMS43My01LjQxaDAuODdWNDEuNGgtMC40OVYzNS43MmgwWm0wLDAiIGNsYXNzPSJjbHMtMSIvPjxwb2x5Z29uIHBvaW50cz0iMjUxLjYgMzQuMjUgMjQ5LjA2IDM0LjI1IDI0OC41NyAzNC4yNSAyNDYuMDQgMzQuMjUgMjQ2LjA0IDM0Ljc0IDI0OC41NyAzNC43NCAyNDguNTcgNDAuNDIgMjQ5LjA2IDQwLjQyIDI0OS4wNiAzNC43NCAyNTEuNiAzNC43NCAyNTEuNiAzNC4yNSIgY2xhc3M9ImNscy0xIi8+PHBhdGggdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTEuMTEgLTAuOTgpIiBkPSJNMTk0LDQxLjMxaC0zLjYyTDE3OC40OCw0LjgzVjQxLjMxaC0zLjE3VjEuNjZIMTgxbDExLjA4LDM0LjcxaDAuMTJMMjAzLjMyLDEuNjZoNS41NlY0MS4zMWgtMy4xNFY0LjgzWiIgY2xhc3M9ImNscy0xIi8+PHBhdGggdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTEuMTEgLTAuOTgpIiBkPSJNNDcuOCwxLjY1VjQxLjMxaDMuNDRWMjMuMzhINTZhMTAuNDgsMTAuNDgsMCwwLDEsMy43LjZjMy41MSwxLjMzLDMuOTEsNS40LDQuNTQsOGwyLDkuMzhINjkuN2wtMi4yNS0xMC43Yy0wLjY2LTMuMjItMS4xLTQuNi0yLTYtMS4xOS0xLjg1LTQuNTktMi44NS00LjU5LTIuODUsNS41OC0xLjA5LDgtNC44Myw4LTkuOTMsMC00LjY4LTIuMjctMTAuMTUtMTIuNjktMTAuMTVINDcuOFptMy40NCwzLjE2aDQuNTRjOS4wNywwLDkuNiw0LjgyLDkuNiw3LDAsMS44MS0uMzMsOC40MS0xMSw4LjQxSDUxLjI0VjQuODJoMFptMCwwIiBjbGFzcz0iY2xzLTIiLz48cGF0aCB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMS4xMSAtMC45OCkiIGQ9Ik03My43OSwyMC41MWgzLjUyYzAuMzItMS42LDEtNC40NCw1LjY5LTQuNDQsNi4xNCwwLDUuOTQsNS4zMiw1Ljk0LDcuMzh2Mi40cy0yLDAtMy4yNC4xMmMtNC42OS4zNi0xMi4zNSwxLjU4LTEyLjM1LDguNjVzNS44Niw3LjMxLDcsNy4zMWExMC4wNiwxMC4wNiwwLDAsMCw0Ljg0LTEuMTUsMTAuMzEsMTAuMzEsMCwwLDAsMy42Ni0zLjM0aDAuMTJ2My44N2gyLjg1VjIyLjYzYzAtMi43OS4yNi05LjMtOC41NS05LjNTNzMuNzksMTkuMjEsNzMuNzksMjAuNTFabTE1LjE0LDguMDhhMjUuNTIsMjUuNTIsMCwwLDEtLjIsMy4xNiw3LjkzLDcuOTMsMCwwLDEtNy44Niw2LjczLDMuNzEsMy43MSwwLDAsMS00LjA2LTMuNzFjMC0xLjQ1LjU2LTQuODQsNi4xMy01LjkxQzg0LjExLDI4LjY0LDg4LjkzLDI4LjU5LDg4LjkzLDI4LjU5WiIgY2xhc3M9ImNscy0yIi8+PHBhdGggdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTEuMTEgLTAuOTgpIiBkPSJNOTYuNTQsMS42NVYzMC4xMWMwLDEuNTQuMDUsMTEuODMsOS41MywxMS44MywyLjI4LDAsMTAuNi0uOCwxMC42LTE0cy03LjMtMTQuNTktOS41LTE0LjU5YTcuODksNy44OSwwLDAsMC03LjY0LDUuNzhoLTAuMVYxLjY1aC0yLjlabTE2LjY3LDI2LjIxYzAsMTEuMDctNi4xOCwxMS4zLTcuMTQsMTEuM3MtNi41MywwLTYuNTMtMTAuODVjMC05LDQuMzMtMTIuMjUsNy4zMS0xMi4yNVMxMTMuMjEsMTkuMTMsMTEzLjIxLDI3Ljg3WiIgY2xhc3M9ImNscy0yIi8+PHBhdGggdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTEuMTEgLTAuOTgpIiBkPSJNMTIxLjEzLDEuNjVWMzAuMTFjMCwxLjU0LjA1LDExLjgzLDkuNTMsMTEuODMsMi4yOCwwLDEwLjYtLjgsMTAuNi0xNHMtNy4zLTE0LjU5LTkuNS0xNC41OWE3Ljg5LDcuODksMCwwLDAtNy42NCw1Ljc4SDEyNFYxLjY1aC0yLjlabTE2LjY3LDI2LjIxYzAsMTEuMDctNi4xOCwxMS4zLTcuMTQsMTEuM3MtNi41MywwLTYuNTMtMTAuODVjMC05LDQuMzMtMTIuMjUsNy4zMS0xMi4yNVMxMzcuNzksMTkuMTMsMTM3Ljc5LDI3Ljg3WiIgY2xhc3M9ImNscy0yIi8+PHBhdGggdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTEuMTEgLTAuOTgpIiBkPSJNMTQ5LDEzLjk1VjQxLjMxaC0yLjg3VjEzLjk1SDE0OVoiIGNsYXNzPSJjbHMtMiIvPjxwYXRoIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0xLjExIC0wLjk4KSIgZD0iTTE0OS42NiwxLjY2VjYuMzFoLTQuMjRWMS42Nmg0LjI0Wm0wLDAiIGNsYXNzPSJjbHMtMiIvPjxwYXRoIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0xLjExIC0wLjk4KSIgZD0iTTE2OSw0MS42OWEyOC4xOSwyOC4xOSwwLDAsMS0yLjkyLjI1LDguNDgsOC40OCwwLDAsMS01LjQ1LTEuNTdjLTEuMi0xLTEuNzktMi43Ni0xLjc5LTUuMTdWMTYuNjloLTQuMzhWMTMuOTVoNC4zOFY3LjYzbDIuODUtMS45MXY4LjIySDE2OXYyLjc0aC03LjN2MTcuNmMwLDAuNzktLjE5LDQuODcsNC4xNCw0Ljg3YTExLjE4LDExLjE4LDAsMCwwLDMuMTYtLjQ5djNoMFptMCwwIiBjbGFzcz0iY2xzLTIiLz48cGF0aCB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMS4xMSAtMC45OCkiIGQ9Ik0zOS40MiwxNy4zN0gyNi42NWExLjU5LDEuNTksMCwwLDEtMS42LTEuNlYzYTEuNTksMS41OSwwLDAsMC0xLjYtMS41OUgxOC42N0ExLjU5LDEuNTksMCwwLDAsMTcuMDcsM1YxNS43N2ExLjU5LDEuNTksMCwwLDEtMS42LDEuNkgxMC42OWExLjU5LDEuNTksMCwwLDEtMS42LTEuNlYzQTEuNTksMS41OSwwLDAsMCw3LjQ5LDEuNEgyLjdBMS41OSwxLjU5LDAsMCwwLDEuMTEsM1YzOS43MmExLjU5LDEuNTksMCwwLDAsMS42LDEuNkgzOS40MmExLjU5LDEuNTksMCwwLDAsMS42LTEuNlYxOUExLjU5LDEuNTksMCwwLDAsMzkuNDIsMTcuMzdaTTMzLDMwLjkzYTIuMzksMi4zOSwwLDAsMS0yLjM5LDIuNGgtMy4yYTIuMzksMi4zOSwwLDAsMS0yLjM5LTIuNFYyNy43NGEyLjM5LDIuMzksMCwwLDEsMi4zOS0yLjRoMy4yQTIuMzksMi4zOSwwLDAsMSwzMywyNy43NHYzLjE5WiIgY2xhc3M9ImNscy0yIi8+PHBhdGggdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTEuMTEgLTAuOTgpIiBkPSJNMjM1LjI2LDM4LjYyYzMuNjctMy4xNCw1LjYzLTksNS42My0xNy40NSwwLTEyLjMxLTQuNjUtMjAuMi0xMy4zMy0yMC4yLTguMTQsMC0xMy44MSw2LjYxLTEzLjgxLDIwLjJzNC44MiwyMC4xNiwxMy41NywyMC4xNmwwLjM3LDB2MGgxNlYzOFpNMjE3LjUyLDIxLjE4YzAtMTEuMywzLjIzLTE2Ljc5LDEwLTE2Ljc5czkuNTYsNi41Niw5LjU2LDE2Ljc5UzIzNC42MiwzOCwyMjcuMzUsMzgsMjE3LjUyLDMyLjQ4LDIxNy41MiwyMS4xOFoiIGNsYXNzPSJjbHMtMSIvPjwvc3ZnPg==;" parent="1" vertex="1">
+          <mxGeometry x="1220.97" y="500" width="188.05" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="coN3A_AfMeLDn5IxTaoZ-2" value="" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="1210" y="550" width="220" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="coN3A_AfMeLDn5IxTaoZ-3" value="Virtualhost: /omotes_celery/" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="1230" y="560" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="coN3A_AfMeLDn5IxTaoZ-4" value="PostgreSQL" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="920" y="390" width="120" height="71.25" as="geometry" />
+        </mxCell>
+        <mxCell id="coN3A_AfMeLDn5IxTaoZ-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="coN3A_AfMeLDn5IxTaoZ-7" target="coN3A_AfMeLDn5IxTaoZ-25" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="coN3A_AfMeLDn5IxTaoZ-13" value="&lt;b&gt;1.&lt;/b&gt; Job is delivered&lt;br&gt;to a worker for processing" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=default;labelBorderColor=#828282;" parent="coN3A_AfMeLDn5IxTaoZ-12" vertex="1" connectable="0">
+          <mxGeometry x="-0.6752" y="-4" relative="1" as="geometry">
+            <mxPoint x="-6" y="-24" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="coN3A_AfMeLDn5IxTaoZ-7" value="Celery queues, controlled by Celery" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="1230" y="630" width="187.5" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="0-LMbgC6bI9Dt3NIfVt0-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="coN3A_AfMeLDn5IxTaoZ-8" target="coN3A_AfMeLDn5IxTaoZ-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0-LMbgC6bI9Dt3NIfVt0-17" value="&lt;b&gt;0.&lt;/b&gt; The job is&lt;br&gt;submitted." style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBorderColor=#828282;" vertex="1" connectable="0" parent="0-LMbgC6bI9Dt3NIfVt0-16">
+          <mxGeometry x="-0.1154" y="-1" relative="1" as="geometry">
+            <mxPoint x="-12" y="-28" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0-LMbgC6bI9Dt3NIfVt0-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="coN3A_AfMeLDn5IxTaoZ-8" target="coN3A_AfMeLDn5IxTaoZ-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0-LMbgC6bI9Dt3NIfVt0-20" value="&lt;b&gt;8a.&lt;/b&gt; The job&lt;br&gt;cancellation&lt;br&gt;is send." style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBorderColor=#828282;" vertex="1" connectable="0" parent="0-LMbgC6bI9Dt3NIfVt0-19">
+          <mxGeometry x="-0.2347" y="-2" relative="1" as="geometry">
+            <mxPoint x="-4" y="31" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="coN3A_AfMeLDn5IxTaoZ-8" value="Celery" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="1040" y="650" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="coN3A_AfMeLDn5IxTaoZ-11" value="Worker" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="1650" y="635" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="coN3A_AfMeLDn5IxTaoZ-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" parent="1" source="coN3A_AfMeLDn5IxTaoZ-16" target="8MLc0p4F3aTrWBv1-tXL-7" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1090" y="795" />
+              <mxPoint x="1090" y="703" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="coN3A_AfMeLDn5IxTaoZ-16" value="omotes_task_progress_events" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="1241.58" y="780" width="169.39" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="coN3A_AfMeLDn5IxTaoZ-25" value="Celery" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="1590" y="650" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="coN3A_AfMeLDn5IxTaoZ-29" value="Queue is declared by orchestrator (default routing key). Queue is durable and messages are persisted." style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;" parent="1" vertex="1">
+          <mxGeometry x="1216" y="830" width="208" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0-LMbgC6bI9Dt3NIfVt0-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="coN3A_AfMeLDn5IxTaoZ-11" target="coN3A_AfMeLDn5IxTaoZ-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1680" y="788" />
+              <mxPoint x="1411" y="788" />
+            </Array>
+            <mxPoint x="1680" y="780" as="sourcePoint" />
+            <mxPoint x="1411" y="795" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0-LMbgC6bI9Dt3NIfVt0-2" value="&lt;b&gt;2. &lt;/b&gt;JobProgressUpdate with&lt;br&gt;0% progress is send denoting&lt;br&gt;the job has started" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];labelBorderColor=#828282;" vertex="1" connectable="0" parent="0-LMbgC6bI9Dt3NIfVt0-1">
+          <mxGeometry x="0.1626" relative="1" as="geometry">
+            <mxPoint x="-92" y="-25" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0-LMbgC6bI9Dt3NIfVt0-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="coN3A_AfMeLDn5IxTaoZ-11" target="coN3A_AfMeLDn5IxTaoZ-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1800" y="680" />
+              <mxPoint x="1800" y="650" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0-LMbgC6bI9Dt3NIfVt0-4" value="&lt;b&gt;3a.&lt;/b&gt; During processing, the job causes a&lt;br&gt;hard crash such as&lt;br&gt;an OutOfMemoryError" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];labelBorderColor=#828282;" vertex="1" connectable="0" parent="0-LMbgC6bI9Dt3NIfVt0-3">
+          <mxGeometry x="-0.0222" y="-1" relative="1" as="geometry">
+            <mxPoint x="9" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0-LMbgC6bI9Dt3NIfVt0-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="coN3A_AfMeLDn5IxTaoZ-7" target="coN3A_AfMeLDn5IxTaoZ-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0-LMbgC6bI9Dt3NIfVt0-6" value="&lt;b&gt;4.&lt;/b&gt; The connection to the worker&lt;br&gt;is lost so RabbitMQ requeues the job." style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];labelBorderColor=#828282;" vertex="1" connectable="0" parent="0-LMbgC6bI9Dt3NIfVt0-5">
+          <mxGeometry x="-0.0037" y="2" relative="1" as="geometry">
+            <mxPoint x="-94" y="18" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0-LMbgC6bI9Dt3NIfVt0-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="0-LMbgC6bI9Dt3NIfVt0-9" target="coN3A_AfMeLDn5IxTaoZ-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0-LMbgC6bI9Dt3NIfVt0-13" value="&lt;b style=&quot;&quot;&gt;6.&amp;nbsp;&lt;/b&gt;&lt;span style=&quot;&quot;&gt;JobProgressUpdate with&lt;/span&gt;&lt;br style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;0% progress is send denoting&lt;/span&gt;&lt;br style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;the job has started&lt;/span&gt;" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];labelBorderColor=#828282;" vertex="1" connectable="0" parent="0-LMbgC6bI9Dt3NIfVt0-12">
+          <mxGeometry x="0.0194" y="1" relative="1" as="geometry">
+            <mxPoint x="-96" y="26" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0-LMbgC6bI9Dt3NIfVt0-9" value="Worker" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1650" y="850" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0-LMbgC6bI9Dt3NIfVt0-10" value="Celery" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="1590" y="865" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0-LMbgC6bI9Dt3NIfVt0-14" value="While we have drawn the workers seperately, it is of course possible that the job is redelivered to the same worker which has restarted in the mean time after the hard crash." style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;" vertex="1" parent="1">
+          <mxGeometry x="1790" y="705.63" width="390" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0-LMbgC6bI9Dt3NIfVt0-15" value="The 2nd job delivery may also cause a crash in the mean time, but the cancellation may also be fast enough that the job does not cause a hard crash. Therefore, this possible crash is not drawn." style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;" vertex="1" parent="1">
+          <mxGeometry x="1790" y="840" width="390" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0-LMbgC6bI9Dt3NIfVt0-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;jumpStyle=sharp;" edge="1" parent="1" target="0-LMbgC6bI9Dt3NIfVt0-10" source="coN3A_AfMeLDn5IxTaoZ-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1418" y="880" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="1450" y="683" />
+              <mxPoint x="1450" y="880" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0-LMbgC6bI9Dt3NIfVt0-8" value="&lt;b&gt;5.&lt;/b&gt; Job is delivered&lt;br&gt;to a worker for&lt;br&gt;processing again&lt;br&gt;&lt;br&gt;&lt;b&gt;9a.&lt;/b&gt; The job cancellation is received&lt;br&gt;and the job is either actively&lt;br&gt;stopped if already running or&lt;br&gt;prevented from running alltogether." style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=default;labelBorderColor=#828282;" vertex="1" connectable="0" parent="0-LMbgC6bI9Dt3NIfVt0-7">
+          <mxGeometry x="-0.6752" y="-4" relative="1" as="geometry">
+            <mxPoint x="4" y="240" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
