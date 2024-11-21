@@ -12,3 +12,4 @@
 - [Detect crashing jobs](Feature_Detect_crashing_jobs/Feature_Detect_crashing_jobs.md)
 - [Progress updates](Feature_Error_Progress_Updates/Feature_Error_Progress_Updates.md)
 - [Job reference](Feature_Job_Reference/Feature_Job_Reference.md)
+- [Job queues cleanup](Feature_Job_Queues_Cleanup/Feature_Job_Queues_Cleanup.md)
