@@ -20,9 +20,12 @@ of:
 - use of a different type of time series database
 
 The proposal is to create a `job_deletions` queue to which an SDK can publish. The orchestrator will
-subscribe to this queue and remove the data from the time series database.  
+subscribe to this queue and remove the data from the time series database. A `JobDelete` message
+will contain the output ESDL id of the omotes job.  
 Also on a `job_cancellations` message, the orchestrator should, after termination of the celery job,
-remove any time series data, if present.
+remove any time series data, if present.  
+Also in case of an error or timeout, all timeseries entries, if any, should be removed.  
+**ISSUE: How to obtain the output ESDL id in case of a cancellation/timeout?**
 
 ### Omotes-rest
 
