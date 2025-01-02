@@ -22,10 +22,31 @@ of:
 The proposal is to create a `job_deletions` queue to which an SDK can publish. The orchestrator will
 subscribe to this queue and remove the data from the time series database. A `JobDelete` message
 will contain the output ESDL id of the omotes job.  
-Also on a `job_cancellations` message, the orchestrator should, after termination of the celery job,
-remove any time series data, if present.  
-Also in case of an error or timeout, all timeseries entries, if any, should be removed.  
-**ISSUE: How to obtain the output ESDL id in case of a cancellation/timeout?**
+Also on a `JobCancel` message, the orchestrator should, after termination of the celery job, remove
+any time series data, if present.  
+Also in case of an error or timeout, all timeseries entries, if any, should be removed.
+
+### How to handle abrupt worker terminations?
+
+When an omotes worker is terminated abruptly (due to cancellation, time out, error) there is no way
+that the influxdb data can be removed, since the output ESDL id has not been passed through.  
+A solution to this would be to create an `influx_esdl` table in the orchestrator postgres database
+with `esdl_id`, `registered_at`, `job_id`, `job_reference` and `inactive_at` columns. The
+`registered_at`, `job_id` and `job_reference` are not used but could be useful for admins.  
+This table is used as follows, upon:
+
+- completion of a job: the output ESDL id is registered in the table with `inactive_at` set to
+  `NULL`
+- deletion/cancellation of a job: the output ESDL id is removed from the table (and the related
+  influx db table is removed)
+
+There is a daily influx cleanup job which checks if all influxdb databases are in the `influx_esdl`
+table, and then takes the following actions:
+
+- if not present: register with `inactive_at` set to the current time
+- if present and `inactive_at` is not `NULL` and a specified duration (env var: a week) has passed
+  since `inactive_at`: remove the influx database and the `influx_esdl` table entry
+- lastly any `influx_esdl` table entries for which no influxdb database is found should be removed
 
 ### Omotes-rest
 
