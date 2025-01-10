@@ -30,9 +30,16 @@ Also in case of an error or timeout, all timeseries entries, if any, should be r
 
 When an omotes worker is terminated abruptly (due to cancellation, time out, error) there is no way
 that the influxdb data can be removed, since the output ESDL id has not been passed through.  
-A solution to this would be to create an `influx_esdl` table in the orchestrator postgres database
+A solution to this would be to create an `timeseries_esdl` table in the orchestrator postgres database
 with `esdl_id`, `registered_at`, `job_id`, `job_reference` and `inactive_at` columns. The
 `registered_at`, `job_id` and `job_reference` are not used but could be useful for admins.  
+This database will contain active ESDL's which will be added on completion of a job.
+It will also contain possible stale/inactive ESDL's identified by a non-null 'inactive_at' value.
+These will be created when an influxdb is found for which no 'timeseries_esdl' entry can be found (
+because it was not created due to a job crash, or because the job is still running). When a
+specified time has passed since 'inactive_at' (allowing for job completion), the 'timeseries_esdl'
+entry will be removed, as well as the influxdb data.  
+
 This table is used as follows, upon:
 
 - completion of a job: the output ESDL id is registered in the table with `inactive_at` set to
@@ -40,13 +47,13 @@ This table is used as follows, upon:
 - deletion/cancellation of a job: the output ESDL id is removed from the table (and the related
   influx db table is removed)
 
-There is a daily influx cleanup job which checks if all influxdb databases are in the `influx_esdl`
+There is a daily influx cleanup job which checks if all influxdb databases are in the `timeseries_esdl`
 table, and then takes the following actions:
 
 - if not present: register with `inactive_at` set to the current time
 - if present and `inactive_at` is not `NULL` and a specified duration (env var: a week) has passed
-  since `inactive_at`: remove the influx database and the `influx_esdl` table entry
-- lastly any `influx_esdl` table entries for which no influxdb database is found should be removed
+  since `inactive_at`: remove the influx database and the `timeseries_esdl` table entry
+- lastly any `timeseries_esdl` table entries for which no influxdb database is found should be removed
 
 ### Omotes-rest
 
